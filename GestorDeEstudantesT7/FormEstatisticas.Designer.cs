@@ -29,98 +29,109 @@
         private void InitializeComponent()
         {
             this.panelTotalDeEstudantes = new System.Windows.Forms.Panel();
-            this.labelTotalEstudantes = new System.Windows.Forms.Label();
-            this.panelMeninas = new System.Windows.Forms.Panel();
-            this.labelMeninas = new System.Windows.Forms.Label();
+            this.labelTotalDeEstudantes = new System.Windows.Forms.Label();
             this.panelMeninos = new System.Windows.Forms.Panel();
             this.labelMeninos = new System.Windows.Forms.Label();
+            this.panelMeninas = new System.Windows.Forms.Panel();
+            this.labelMeninas = new System.Windows.Forms.Label();
             this.panelTotalDeEstudantes.SuspendLayout();
-            this.panelMeninas.SuspendLayout();
             this.panelMeninos.SuspendLayout();
+            this.panelMeninas.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelTotalDeEstudantes
             // 
-            this.panelTotalDeEstudantes.BackColor = System.Drawing.Color.Lime;
-            this.panelTotalDeEstudantes.Controls.Add(this.labelTotalEstudantes);
+            this.panelTotalDeEstudantes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.panelTotalDeEstudantes.Controls.Add(this.labelTotalDeEstudantes);
             this.panelTotalDeEstudantes.Location = new System.Drawing.Point(12, 12);
             this.panelTotalDeEstudantes.Name = "panelTotalDeEstudantes";
-            this.panelTotalDeEstudantes.Size = new System.Drawing.Size(772, 226);
+            this.panelTotalDeEstudantes.Size = new System.Drawing.Size(708, 204);
             this.panelTotalDeEstudantes.TabIndex = 0;
-            this.panelTotalDeEstudantes.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTotalDeEstudantes_Paint);
             // 
-            // labelTotalEstudantes
+            // labelTotalDeEstudantes
             // 
-            this.labelTotalEstudantes.AutoSize = true;
-            this.labelTotalEstudantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.26F);
-            this.labelTotalEstudantes.Location = new System.Drawing.Point(196, 101);
-            this.labelTotalEstudantes.Name = "labelTotalEstudantes";
-            this.labelTotalEstudantes.Size = new System.Drawing.Size(350, 36);
-            this.labelTotalEstudantes.TabIndex = 2;
-            this.labelTotalEstudantes.Text = "Total De Estudantes: 999";
-            this.labelTotalEstudantes.Click += new System.EventHandler(this.label1_Click);
-            this.labelTotalEstudantes.MouseEnter += new System.EventHandler(this.labelTotalEstudantes_MouseEnter);
-            this.labelTotalEstudantes.MouseLeave += new System.EventHandler(this.labelTotalEstudantes_MouseLeave);
-            // 
-            // panelMeninas
-            // 
-            this.panelMeninas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.panelMeninas.Controls.Add(this.labelMeninas);
-            this.panelMeninas.Location = new System.Drawing.Point(399, 244);
-            this.panelMeninas.Name = "panelMeninas";
-            this.panelMeninas.Size = new System.Drawing.Size(385, 194);
-            this.panelMeninas.TabIndex = 1;
-            // 
-            // labelMeninas
-            // 
-            this.labelMeninas.AutoSize = true;
-            this.labelMeninas.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.26F);
-            this.labelMeninas.Location = new System.Drawing.Point(131, 83);
-            this.labelMeninas.Name = "labelMeninas";
-            this.labelMeninas.Size = new System.Drawing.Size(166, 29);
-            this.labelMeninas.TabIndex = 4;
-            this.labelMeninas.Text = "Meninas 50%";
-            this.labelMeninas.MouseEnter += new System.EventHandler(this.labelMeninas_MouseEnter);
-            this.labelMeninas.MouseLeave += new System.EventHandler(this.labelMeninas_MouseLeave);
+            this.labelTotalDeEstudantes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelTotalDeEstudantes.AutoSize = true;
+            this.labelTotalDeEstudantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTotalDeEstudantes.Location = new System.Drawing.Point(232, 88);
+            this.labelTotalDeEstudantes.Name = "labelTotalDeEstudantes";
+            this.labelTotalDeEstudantes.Size = new System.Drawing.Size(230, 25);
+            this.labelTotalDeEstudantes.TabIndex = 0;
+            this.labelTotalDeEstudantes.Text = "Total de Estudantes: 999";
+            this.labelTotalDeEstudantes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelTotalDeEstudantes.MouseEnter += new System.EventHandler(this.labelTotalDeEstudantes_MouseEnter);
+            this.labelTotalDeEstudantes.MouseLeave += new System.EventHandler(this.labelTotalDeEstudantes_MouseLeave);
             // 
             // panelMeninos
             // 
-            this.panelMeninos.BackColor = System.Drawing.Color.Blue;
+            this.panelMeninos.BackColor = System.Drawing.Color.Yellow;
             this.panelMeninos.Controls.Add(this.labelMeninos);
-            this.panelMeninos.Location = new System.Drawing.Point(12, 244);
+            this.panelMeninos.Location = new System.Drawing.Point(12, 222);
             this.panelMeninos.Name = "panelMeninos";
-            this.panelMeninos.Size = new System.Drawing.Size(385, 194);
+            this.panelMeninos.Size = new System.Drawing.Size(351, 216);
             this.panelMeninos.TabIndex = 1;
             // 
             // labelMeninos
             // 
+            this.labelMeninos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelMeninos.AutoSize = true;
-            this.labelMeninos.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.26F);
-            this.labelMeninos.Location = new System.Drawing.Point(81, 77);
+            this.labelMeninos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMeninos.Location = new System.Drawing.Point(96, 93);
             this.labelMeninos.Name = "labelMeninos";
-            this.labelMeninos.Size = new System.Drawing.Size(198, 36);
-            this.labelMeninos.TabIndex = 3;
-            this.labelMeninos.Text = "Meninos 50%";
+            this.labelMeninos.Size = new System.Drawing.Size(138, 25);
+            this.labelMeninos.TabIndex = 1;
+            this.labelMeninos.Text = "Meninos: 50%";
+            this.labelMeninos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.labelMeninos.MouseEnter += new System.EventHandler(this.labelMeninos_MouseEnter);
             this.labelMeninos.MouseLeave += new System.EventHandler(this.labelMeninos_MouseLeave);
+            // 
+            // panelMeninas
+            // 
+            this.panelMeninas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panelMeninas.Controls.Add(this.labelMeninas);
+            this.panelMeninas.Location = new System.Drawing.Point(369, 222);
+            this.panelMeninas.Name = "panelMeninas";
+            this.panelMeninas.Size = new System.Drawing.Size(351, 216);
+            this.panelMeninas.TabIndex = 2;
+            // 
+            // labelMeninas
+            // 
+            this.labelMeninas.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelMeninas.AutoSize = true;
+            this.labelMeninas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMeninas.Location = new System.Drawing.Point(97, 93);
+            this.labelMeninas.Name = "labelMeninas";
+            this.labelMeninas.Size = new System.Drawing.Size(138, 25);
+            this.labelMeninas.TabIndex = 2;
+            this.labelMeninas.Text = "Meninas: 50%";
+            this.labelMeninas.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelMeninas.MouseEnter += new System.EventHandler(this.labelMeninas_MouseEnter);
+            this.labelMeninas.MouseLeave += new System.EventHandler(this.labelMeninas_MouseLeave);
             // 
             // FormEstatisticas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panelMeninos);
+            this.ClientSize = new System.Drawing.Size(736, 450);
             this.Controls.Add(this.panelMeninas);
+            this.Controls.Add(this.panelMeninos);
             this.Controls.Add(this.panelTotalDeEstudantes);
             this.Name = "FormEstatisticas";
-            this.Text = "FormEstatisticas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "SGA - Estastísticas";
             this.Load += new System.EventHandler(this.FormEstatisticas_Load);
             this.panelTotalDeEstudantes.ResumeLayout(false);
             this.panelTotalDeEstudantes.PerformLayout();
-            this.panelMeninas.ResumeLayout(false);
-            this.panelMeninas.PerformLayout();
             this.panelMeninos.ResumeLayout(false);
             this.panelMeninos.PerformLayout();
+            this.panelMeninas.ResumeLayout(false);
+            this.panelMeninas.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -128,10 +139,10 @@
         #endregion
 
         private System.Windows.Forms.Panel panelTotalDeEstudantes;
-        private System.Windows.Forms.Panel panelMeninas;
         private System.Windows.Forms.Panel panelMeninos;
-        private System.Windows.Forms.Label labelTotalEstudantes;
-        private System.Windows.Forms.Label labelMeninas;
+        private System.Windows.Forms.Panel panelMeninas;
+        private System.Windows.Forms.Label labelTotalDeEstudantes;
         private System.Windows.Forms.Label labelMeninos;
+        private System.Windows.Forms.Label labelMeninas;
     }
 }

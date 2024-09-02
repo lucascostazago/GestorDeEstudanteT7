@@ -40,7 +40,6 @@ namespace GestorDeEstudantesT7
         {
             try
             {
-
                 // Esta linha só existe em "buttonSalvar_Click(...)"
                 int id = Convert.ToInt32(textBoxID.Text);
 
@@ -92,7 +91,7 @@ namespace GestorDeEstudantesT7
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Ocorreu um erro.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -116,7 +115,6 @@ namespace GestorDeEstudantesT7
 
         private void buttonApagar_Click(object sender, EventArgs e)
         {
-
             try
             {
                 // Referência a ID do aluno.
@@ -150,13 +148,10 @@ namespace GestorDeEstudantesT7
                     }
                 }
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Ocorreu um erro.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                
             }
-
-            
         }
 
         // Variável global do tipo MeuBancoDeDados...
@@ -216,11 +211,6 @@ namespace GestorDeEstudantesT7
             {
                 e.Handled = true;
             }
-        }
-
-        private void FormAtualizarApagarEstudante_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
